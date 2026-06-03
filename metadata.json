@@ -1,0 +1,6 @@
+{
+  "name": "Hospital Vida Sana",
+  "description": "Sitio web profesional e interactivo del Hospital Vida Sana. Cuidamos tu salud y bienestar las 24 horas con especialistas de primer nivel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

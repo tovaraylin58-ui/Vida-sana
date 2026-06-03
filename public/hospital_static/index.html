@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hospital Vida Sana | Excelencia Médica</title>
+    <meta name="description" content="Hospital Vida Sana, atención médica profesional las 24 horas con especialistas calificados.">
+    
+    <!-- Google Fonts: Poppins (Altamente compatible) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Iconos: Font Awesome para iconos vectoriales limpios -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado (Header) -->
+    <header class="main-header" id="header">
+        <nav class="navbar container">
+            <div class="logo" id="logo">
+                <i class="fas fa-heartbeat animate-pulse"></i>
+                <span>Vida <strong class="text-secondary">Sana</strong></span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#medicos" class="nav-link">Médicos</a></li>
+                <li><a href="#citas" class="nav-link">Citas</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger" aria-label="Abrir menú de navegación">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Principal (Hero) -->
+        <section id="inicio" class="hero">
+            <div class="hero-content container">
+                <span class="hero-tag"><i class="fas fa-shield-alt"></i> Salud y Bienestar Garantizados</span>
+                <h1>Hospital Vida Sana</h1>
+                <p>Cuidamos tu salud y bienestar las 24 horas con tecnología de vanguardia, médicos especialistas de primer nivel y una cálida atención humana.</p>
+                <div class="hero-actions">
+                    <a href="#citas" class="btn btn-primary" id="btn-hero-appointment">Agendar Cita Ahora</a>
+                    <a href="#servicios" class="btn btn-outline" id="btn-hero-learn">Conocer Servicios</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Nosotros -->
+        <section id="nosotros" class="about section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Sobre Nosotros</h2>
+                    <p>Comprometidos con el cuidado ético y profesional de tu familia</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card text-block">
+                        <h3>Nuestra Historia y Misión</h3>
+                        <p>Con más de 20 años de trayectoria impecable, el Hospital Vida Sana nació con el objetivo principal de democratizar el acceso real a servicios de salud de alta complejidad.</p>
+                        <p>Nuestra misión diaria es brindar servicios médicos de excelencia con los más altos estándares éticos, bioseguridad internacional y la calidez que todo paciente merece.</p>
+                    </div>
+                    <div class="values-grid">
+                        <div class="value-card" id="value-commitment">
+                            <div class="value-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                            <h4>Compromiso</h4>
+                            <p>Dedicamos nuestra energía a cuidar tu bienestar.</p>
+                        </div>
+                        <div class="value-card" id="value-quality">
+                            <div class="value-icon"><i class="fas fa-award"></i></div>
+                            <h4>Calidad</h4>
+                            <p>Procesos rigurosos y asertividad médica certificada.</p>
+                        </div>
+                        <div class="value-card" id="value-innovation">
+                            <div class="value-icon"><i class="fas fa-laptop-medical"></i></div>
+                            <h4>Innovación</h4>
+                            <p>Tecnologías modernas de imagenología y laboratorios.</p>
+                        </div>
+                        <div class="value-card" id="value-humanity">
+                            <div class="value-icon"><i class="fas fa-user-md"></i></div>
+                            <h4>Humanidad</h4>
+                            <p>Sensibilidad y acompañamiento cálido en todo instante.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Servicios (Grid interactivo) -->
+        <section id="servicios" class="services section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nuestros Servicios</h2>
+                    <p>Especialidades y prestaciones clínicas con equipamiento de primer nivel</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" id="service-general">
+                        <i class="fas fa-stethoscope"></i>
+                        <h3>Medicina General</h3>
+                        <p>Consulta integral diagnóstica familiar y controles preventivos de rutina.</p>
+                    </div>
+                    <div class="service-card" id="service-pediatrics">
+                        <i class="fas fa-baby"></i>
+                        <h3>Pediatría</h3>
+                        <p>Control del niño sano y cuidado del crecimiento madurativo e infantil.</p>
+                    </div>
+                    <div class="service-card" id="service-cardiology">
+                        <i class="fas fa-heartbeat"></i>
+                        <h3>Cardiología</h3>
+                        <p>Monitoreo, electrocardiograma exhaustivo y cuidado cardiovascular avanzado.</p>
+                    </div>
+                    <div class="service-card" id="service-gynaecology">
+                        <i class="fas fa-female"></i>
+                        <h3>Ginecología</h3>
+                        <p>Cuidado de la mujer en todas sus etapas y control gestacional obstétrico.</p>
+                    </div>
+                    <div class="service-card" id="service-laboratory">
+                        <i class="fas fa-flask"></i>
+                        <h3>Laboratorio Clínico</h3>
+                        <p>Pruebas reactivas automatizadas con resultados rápidos y asertivos.</p>
+                    </div>
+                    <div class="service-card emergency-card" id="service-emergency">
+                        <i class="fas fa-ambulance animate-pulse"></i>
+                        <h3>Emergencias 24/7</h3>
+                        <p>Atención médica inmediata crítica con emergenciólogos de guardia permanente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Médicos -->
+        <section id="medicos" class="doctors section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nuestros Especialistas</h2>
+                    <p>Conoce al equipo que cuidará excelentemente de ti y los tuyos</p>
+                </div>
+                <div class="doctors-grid">
+                    <div class="doctor-card" id="doc-soto">
+                        <div class="doctor-img-box">
+                            <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=400&q=80" alt="Dr. Ricardo Soto">
+                            <span class="exp-badge">12 Años Exp.</span>
+                        </div>
+                        <div class="doctor-info">
+                            <h4>Dr. Ricardo Soto</h4>
+                            <span class="specialty">Médico Cirujano General</span>
+                            <p>Especialista en medicina integral interna y medicina de familia con sólida formación asistencial académica.</p>
+                            <a href="#citas" class="btn-text btn-book-doc" data-specialty="Medicina General" data-doctor="Dr. Ricardo Soto">Agendar con este Especialista <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="doctor-card" id="doc-mendez">
+                        <div class="doctor-img-box">
+                            <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&w=400&q=80" alt="Dra. Elena Méndez">
+                            <span class="exp-badge">10 Años Exp.</span>
+                        </div>
+                        <div class="doctor-info">
+                            <h4>Dra. Elena Méndez</h4>
+                            <span class="specialty">Pediatra Neonatóloga</span>
+                            <p>Apasionada en el cuidado físico del niño sano, estimulación temprana y asesoría integral de lactancia materna.</p>
+                            <a href="#citas" class="btn-text btn-book-doc" data-specialty="Pediatría" data-doctor="Dra. Elena Méndez">Agendar con este Especialista <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulario de Citas -->
+        <section id="citas" class="appointment section bg-light">
+            <div class="container">
+                <div class="appointment-container">
+                    <div class="section-header">
+                        <h2>Agenda tu Cita</h2>
+                        <p>Completa el formulario preliminar y un asesor te confirmará en minutos</p>
+                    </div>
+                    <form id="appointmentForm" class="appointment-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label htmlFor="nombre">Nombre Completo <span class="required">*</span></label>
+                                <input type="text" id="nombre" placeholder="Ej. Juan Pérez" required>
+                            </div>
+                            <div class="form-group">
+                                <label htmlFor="correo">Correo Electrónico <span class="required">*</span></label>
+                                <input type="email" id="correo" placeholder="Ej. jperez@correo.com" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label htmlFor="telefono">Teléfono <span class="required">*</span></label>
+                                <input type="tel" id="telefono" placeholder="Ej. +1 234 567890" required>
+                            </div>
+                            <div class="form-group">
+                                <label htmlFor="especialidad">Especialidad <span class="required">*</span></label>
+                                <select id="especialidad" required>
+                                    <option value="">Seleccione Especialidad</option>
+                                    <option value="Medicina General">Medicina General</option>
+                                    <option value="Pediatria">Pediatría</option>
+                                    <option value="Cardiologia">Cardiología</option>
+                                    <option value="Ginecologia">Ginecología</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label htmlFor="medico">Especialista <span class="required">*</span></label>
+                                <select id="medico" required>
+                                    <option value="">Seleccione Médico</option>
+                                    <option value="Dr. Ricardo Soto">Dr. Ricardo Soto</option>
+                                    <option value="Dra. Elena Méndez">Dra. Elena Méndez</option>
+                                    <option value="Cualquiera disponible">Cualquiera disponible</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label htmlFor="fecha">Fecha <span class="required">*</span></label>
+                                <input type="date" id="fecha" required>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-secondary" id="submit-btn">Enviar Solicitud de Cita</button>
+                        
+                        <div id="formFeedback" class="form-feedback"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Testimonios (Carrusel) -->
+        <section class="testimonials section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Opiniones de Pacientes</h2>
+                    <p>La máxima recompensa a nuestra labor es tu completa salud</p>
+                </div>
+                
+                <div class="slider-wrapper">
+                    <div class="testimonial-slider" id="testimonial-slider">
+                        <div class="testimonial-item active">
+                            <div class="stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p>"La atención brindada en la unidad de emergencias de Vida Sana fue excelente. Todo el personal de guardia demostró una enorme empatía y profesionalismo de principio a fin."</p>
+                            <h4>- María López</h4>
+                            <span>Madre de Familia</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p>"El cirujano Dr. Soto salvó la vida de mi padre tras una complicación cardíaca severa. Estaremos eternamente agradecidos con este magnífico hospital."</p>
+                            <h4>- Carlos Ruiz</h4>
+                            <span>Paciente Satisfecho</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p>"Me realicé una batería de análisis bioquímicos por prevención. El personal del laboratorio fue muy amable y los resultados estuvieron listos en menos de 2 horas vía email."</p>
+                            <h4>- Andrea Espinoza</h4>
+                            <span>Emprendedora</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Controls -->
+                    <button class="slide-control prev" id="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slide-control next" id="slider-next"><i class="fas fa-chevron-right"></i></button>
+                    
+                    <!-- Dots -->
+                    <div class="slider-dots" id="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="contact section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Contáctanos</h2>
+                        <p class="contact-desc">Estamos listos para disipar todas tus dudas operativas o brindarte soporte administrativo presencial en nuestra sede.</p>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4>Dirección Sede Principal</h4>
+                                <p>Av. Principal #456, Ciudad Salud</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div>
+                                <h4>Atención Telefónica</h4>
+                                <p>+1 800 123 456</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Correo de Soporte Externo</h4>
+                                <p>info@vidasana.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093643!2d144.9537353153166!3d-37.81720997975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1ses!2sus!4v1625682123456!5m2!1ses!2sus" 
+                            width="100%" 
+                            height="350" 
+                            style="border:0; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            title="Hospital Vida Sana Locación Satelital">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página (Footer) -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <i class="fas fa-heartbeat"></i> <span>Vida <strong>Sana</strong></span>
+                </div>
+                <p>Comprometidos con la excelencia asistencial, la investigación diagnóstica y el sano servicio preventivo familiar desde 1995.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Enlaces Útiles</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#medicos">Médicos</a></li>
+                    <li><a href="#citas">Citas</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p class="urgent-call"><i class="fas fa-phone-volume"></i> Urgencias: +1 800 999 999</p>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <div class="container border-top">
+                <p>&copy; <span id="currentYear"></span> Hospital Vida Sana. Todos los derechos reservados. Diseñado bajo estándares de accesibilidad.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
